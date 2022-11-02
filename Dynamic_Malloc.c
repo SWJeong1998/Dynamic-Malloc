@@ -16,5 +16,6 @@ int main() {
     	arr_2[i] = arr_1[i];
         printf("%d", arr_2[i]);
     }
+    free(arr_2);
     return 0;
 }
