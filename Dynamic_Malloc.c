@@ -16,6 +16,6 @@ int main() {
     	arr_2[i] = arr_1[i];
         printf("%d", arr_2[i]);
     }
-    free(arr_2);
+    free(arr_2);  // 메모리 해제를 위한 free함수 선언
     return 0;
 }
